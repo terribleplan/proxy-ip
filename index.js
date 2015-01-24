@@ -36,6 +36,7 @@ function determineRange(range) {
     }
     if (typeof range === "string") {
         switch (range) {
+            case "any":
             case "cloudflare":
                 return createMatcher(require('./ranges/' + range));
             default:

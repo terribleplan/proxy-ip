@@ -46,5 +46,17 @@ module.exports = [
             }
         },
         result: "1.2.3.4"
+    },
+    {
+        setup: ['any', 'cloudflare'],
+        req: {
+            socket: {
+                remoteAddress: "10.0.0.2"
+            },
+            headers:{
+                "x-forwarded-for": "190.93.240.34, 1.2.3.4"
+            }
+        },
+        result: "1.2.3.4"
     }
 ];
