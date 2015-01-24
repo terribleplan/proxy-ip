@@ -19,7 +19,7 @@ Special Values
 ==============
 Due to the prevalence of some services we will allow you to define some trusted services by name
 
-- 'cloudflare' - [https://www.cloudflare.com/ips-v4]
+- 'cloudflare' - https://www.cloudflare.com/ips-v4
 - 'any' - 0.0.0.0/0, which is perfect if you have a forced trusted routing layer such as heroku.
 
 IPv6?
