@@ -1,0 +1,32 @@
+{
+  "name": "proxy-ip",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/terribleplan/proxy-ip.git"
+  },
+  "keywords": [
+    "proxy",
+    "ip",
+    "x-forwarded-for",
+    "real-ip"
+  ],
+  "author": "Kegan Myers <kegan@keganmyers.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/terribleplan/proxy-ip/issues"
+  },
+  "homepage": "https://github.com/terribleplan/proxy-ip",
+  "dependencies": {
+    "lodash": "^2.4.1"
+  },
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "mocha": "^2.1.0"
+  }
+}

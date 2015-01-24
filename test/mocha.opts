@@ -1,0 +1,4 @@
+-u bdd
+--reporter spec
+--require test/helpers/deps
+--require test/helpers/middlewareHarness
