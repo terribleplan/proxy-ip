@@ -17,7 +17,7 @@ app.use(require('proxy-ip')(['any', 'cloudflare', '192.168.0.0/16']));
 
 Special Values
 ==============
-Due to the prevalence of some services we will allow you to define some trusted services by name
+Due to the prevalence of some services you can define some trusted services by name
 
 - 'cloudflare' - https://www.cloudflare.com/ips-v4
 - 'any' - 0.0.0.0/0, which is perfect if you have a forced trusted routing layer such as heroku.
